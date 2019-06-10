@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Quantidade: 0"
+        android:id="@+id/texto"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/cf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Café Preto"
+        android:layout_below="@id/texto"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="R$ 3.00"
+        android:layout_toRightOf="@id/cf1"
+        android:layout_below="@id/texto"
+        android:onClick="soma1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="-"
+        android:layout_toRightOf="@id/b1"
+        android:layout_below="@id/texto"
+        android:onClick="menos1"/>
+
+
+
+    <TextView
+        android:id="@+id/cf2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Café com Leite"
+        android:layout_below="@id/cf1"
+        />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="R$ 4.00"
+        android:layout_toRightOf="@id/cf2"
+        android:layout_below="@id/cf1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="-"
+        android:layout_toRightOf="@id/b2"
+        android:layout_below="@id/cf1"
+        android:onClick="menos2"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/cf3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Café Expresso"
+        android:layout_below="@id/cf2"
+        android:onClick="soma2"/>
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="R$ 5.00"
+        android:layout_toRightOf="@id/cf3"
+        android:layout_below="@id/cf2"
+        android:onClick="soma3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="-"
+        android:layout_toRightOf="@id/b3"
+        android:layout_below="@id/cf2"
+        android:onClick="menos3"/>
+
+
+
+
+    <TextView
+        android:id="@+id/cf4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Capuccino"
+        android:layout_below="@id/cf3"/>
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="R$ 7.00"
+        android:layout_toRightOf="@id/cf4"
+        android:layout_below="@id/cf3"
+        android:onClick="soma4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="-"
+        android:layout_toRightOf="@id/b4"
+        android:layout_below="@id/cf3"
+        android:onClick="menos4"/>
+
+
+
+
+    <TextView
+        android:id="@+id/cf5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="Café Bazinga"
+        android:layout_below="@id/cf4"/>
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="R$ 10.00"
+        android:layout_toRightOf="@id/cf5"
+        android:layout_below="@id/cf4"
+        android:onClick="soma5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="-"
+        android:layout_toRightOf="@id/b5"
+        android:layout_below="@id/cf4"
+        android:onClick="menos5"/>
+
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Total R$ 0.00"
+        android:layout_below="@id/cf5"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/bt"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Enviar Pedido"
+        android:layout_below="@id/total"
+        />
+
+
+
+
+
+</RelativeLayout>
