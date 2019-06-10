@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 Intent sendEmail = new Intent(Intent.ACTION_SEND);
                 sendEmail.setType("*/*");
-                sendEmail.putExtra(Intent.EXTRA_EMAIL, "cafe.do.ifc.concordia@gmail.com");
+                sendEmail.putExtra(Intent.EXTRA_EMAIL, "brunovitor.bvr@gmail.com");
                 if(num == 1){
                     sendEmail.putExtra(Intent.EXTRA_TEXT, "Eu gostaria de pedir " + num + " café. O valor total será R$" + total);
                 }else{
