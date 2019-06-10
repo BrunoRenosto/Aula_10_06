@@ -24,7 +24,7 @@
         android:id="@+id/cf1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:text="Café Preto"
         android:layout_below="@id/texto"/>
     <Button
@@ -51,7 +51,7 @@
         android:id="@+id/cf2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:text="Café com Leite"
         android:layout_below="@id/cf1"
         />
@@ -80,7 +80,7 @@
         android:id="@+id/cf3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:text="Café Expresso"
         android:layout_below="@id/cf2"
         android:onClick="soma2"/>
@@ -109,7 +109,7 @@
         android:id="@+id/cf4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:text="Capuccino"
         android:layout_below="@id/cf3"/>
     <Button
@@ -137,7 +137,7 @@
         android:id="@+id/cf5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35sp"
+        android:textSize="30sp"
         android:text="Café Bazinga"
         android:layout_below="@id/cf4"/>
     <Button
@@ -168,7 +168,6 @@
         android:text="Total R$ 0.00"
         android:layout_below="@id/cf5"
         android:layout_centerHorizontal="true"/>
-
 
     <Button
         android:id="@+id/bt"
